@@ -11,7 +11,7 @@ while x<len(names1):
         shortest1=names1[x]
     if ord(shortest[0])>ord(shortest1[0]):
         shortest=shortest1
-    if len(longest)<len(names1[x]):
+    if len(longest)<=len(names1[x]):
         longest1=names1[x]
     if ord(longest[0])<ord(longest1[0]):
         longest=longest1
